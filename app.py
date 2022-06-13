@@ -23,6 +23,8 @@ import subprocess
 #subprocess.check_call([sys.executable, '-m', 'pip', 'install', 
 #'skimage'])
 
+subprocess.call(['pip', 'install', 'skimage'])
+
 import cv2
 
 @st.cache

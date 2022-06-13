@@ -560,7 +560,6 @@ def detect(image):
 
   import numpy as np
   from scipy.spatial import distance
-  import matplotlib.pyplot as plt
   from tensorflow import keras
   from keras.applications.mobilenet_v2 import preprocess_input
   from keras.preprocessing.image import img_to_array

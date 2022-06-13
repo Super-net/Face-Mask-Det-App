@@ -21,9 +21,9 @@ import subprocess
 #'keras'])
 
 subprocess.check_call([sys.executable, '-m', 'pip', 'install', 
-'sickit-image'])
+'scikit-image'])
 
-#subprocess.call(['pip', 'install', 'skimage'])
+#subprocess.call(['pip', 'install', 'scikit-image'])
 
 import cv2
 

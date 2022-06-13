@@ -568,13 +568,12 @@ def detect(image):
   from scipy.spatial import distance
   from tensorflow import keras
   from keras.applications.mobilenet_v2 import preprocess_input
-  from keras.preprocessing.image import img_to_array
   from PIL import Image
   import numpy as np
   import cv2
   import os
-  model = keras.models.load_model('/content/mobilenetv2_det.h5')
-  face_model = cv2.CascadeClassifier('/content/haarcascade_frontalface_default.xml')
+  model = keras.models.load_model('mobilenetv2_det.h5')
+  face_model = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 
   def detect(image):    
       mask_label = {0:'Has Mask!',1:'No Mask'}

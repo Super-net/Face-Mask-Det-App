@@ -19,7 +19,6 @@ import subprocess
 
 #subprocess.check_call([sys.executable, '-m', 'pip', 'install', 
 #'keras'])
-
 subprocess.check_call([sys.executable, '-m', 'pip', 'install', 
 'skimage'])
 

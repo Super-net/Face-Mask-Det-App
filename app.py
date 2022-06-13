@@ -558,7 +558,6 @@ def detect(image):
     st.image(image3, caption='Code Cell Output')
 
   import numpy as np
-  import cv2
   from skimage import io
   from scipy.spatial import distance
   import matplotlib.pyplot as plt

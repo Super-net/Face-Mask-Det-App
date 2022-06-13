@@ -5,20 +5,20 @@ import sys
 import subprocess
 
 # implement pip as a subprocess:
-subprocess.check_call([sys.executable, '-m', 'pip', 'install', 
-'chart_studio'])
+#subprocess.check_call([sys.executable, '-m', 'pip', 'install', 
+#'chart_studio'])
 
-subprocess.check_call([sys.executable, '-m', 'pip', 'install', 
-'streamlit_webrtc'])
+#subprocess.check_call([sys.executable, '-m', 'pip', 'install', 
+#'streamlit_webrtc'])
 
-subprocess.check_call([sys.executable, '-m', 'pip', 'install', 
-'scipy'])
+#subprocess.check_call([sys.executable, '-m', 'pip', 'install', 
+#'scipy'])
 
-subprocess.check_call([sys.executable, '-m', 'pip', 'install', 
-'tensorflow'])
+#subprocess.check_call([sys.executable, '-m', 'pip', 'install', 
+#'tensorflow'])
 
-subprocess.check_call([sys.executable, '-m', 'pip', 'install', 
-'keras'])
+#subprocess.check_call([sys.executable, '-m', 'pip', 'install', 
+#'keras'])
 
 import cv2
 

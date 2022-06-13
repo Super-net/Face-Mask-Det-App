@@ -6,7 +6,7 @@ import subprocess
 
 # implement pip as a subprocess:
 subprocess.check_call([sys.executable, '-m', 'pip', 'install', 
-'cv2'])
+'opencv-python'])
 
 subprocess.check_call([sys.executable, '-m', 'pip', 'install', 
 'scipy'])

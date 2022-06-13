@@ -1,5 +1,6 @@
 import streamlit as st
 from PIL import Image, ImageEnhance
+import cv2
 
 import sys
 import subprocess

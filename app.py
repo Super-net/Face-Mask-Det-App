@@ -89,7 +89,7 @@ def main():
     st.subheader('MobileNetV2 Network')
     st.write("MobileNetV2 is a convolutional neural network architecture that seeks to perform well on mobile devices. It is based on an inverted residual structure where the residual connections are between the bottleneck layers.")
 
-    image2 = Image.open('/content/Screen_Shot_2020-06-06_at_10.37.14_PM (1).png')
+    image2 = Image.open('Screen_Shot_2020-06-06_at_10.37.14_PM (1).png')
     st.image(image2, caption='Plotted version of MobileNetV2 Layers.')
 
     st.markdown("##### What is a CNN?")
@@ -161,7 +161,7 @@ def main():
 
     st.code(code, language='python')
 
-    IMAGE = "/content/Screen Shot 2022-06-10 at 5.57.24 PM.png"
+    IMAGE = "Screen Shot 2022-06-10 at 5.57.24 PM.png"
     st.markdown(
       """
       <style>
@@ -279,10 +279,10 @@ def main():
 
     # Example for image detections
     st.write("2. Implementing face mask detector for images.")
-    image3 = Image.open("/content/Screen Shot 2022-06-13 at 10.44.01 AM.png")
+    image3 = Image.open("Screen Shot 2022-06-13 at 10.44.01 AM.png")
     st.image(image3, caption='Another exmaple from my trial runs')
 
-    image4 = Image.open('/content/Screen Shot 2022-06-13 at 10.43.18 AM.png')
+    image4 = Image.open('Screen Shot 2022-06-13 at 10.43.18 AM.png')
     st.image(image4, caption='No Mask example from my trial runs')
 
 
@@ -547,7 +547,7 @@ def detect(image):
     """
     st.code(code17, language='python')
 
-    image3 = Image.open("/content/Screen Shot 2022-06-13 at 10.44.01 AM.png")
+    image3 = Image.open("Screen Shot 2022-06-13 at 10.44.01 AM.png")
     st.image(image3, caption='Code Cell Output')
 
   import numpy as np

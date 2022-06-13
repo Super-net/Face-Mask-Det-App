@@ -570,7 +570,6 @@ def detect(image):
   from keras.applications.mobilenet_v2 import preprocess_input
   from PIL import Image
   import numpy as np
-  import cv2
   import os
   model = keras.models.load_model('mobilenetv2_det.h5')
   face_model = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')

@@ -8,6 +8,9 @@ import subprocess
 subprocess.check_call([sys.executable, '-m', 'pip', 'install', 
 'scipy'])
 
+subprocess.check_call([sys.executable, '-m', 'pip', 'install', 
+'tensorflow'])
+
 
 @st.cache
 def load_image(img):

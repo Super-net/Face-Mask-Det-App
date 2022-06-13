@@ -12,7 +12,7 @@ subprocess.check_call([sys.executable, '-m', 'pip', 'install',
 'tensorflow'])
 
 subprocess.check_call([sys.executable, '-m', 'pip', 'install', 
-'tensorflow.keras.preprocessing.image'])
+'keras.preprocessing.image'])
 
 
 @st.cache

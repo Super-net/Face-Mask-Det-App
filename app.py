@@ -45,7 +45,7 @@ def main():
 
     st.subheader("Here\'s an example")
     st.write('In this Face Mask Detection Streamlit App now I will take you through the Coding/Programming parts, but first take a look at an example of the prediction before you go any further.')
-    image = Image.open('/content/Screen Shot 2022-06-10 at 3.49.05 PM.png')
+    image = Image.open('Screen Shot 2022-06-10 at 3.49.05 PM.png')
     st.image(image, caption='This image above is a detected mask image.')
 
     st.write("Above you can see the selected person in the Unsplash image is wearing a mask therefore the model predicts and chooses correctly, as the model had a validation accuracy of exactly 99.89.")

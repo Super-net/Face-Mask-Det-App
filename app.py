@@ -1,11 +1,13 @@
 import streamlit as st
 from PIL import Image, ImageEnhance
-import cv2
 
 import sys
 import subprocess
 
 # implement pip as a subprocess:
+subprocess.check_call([sys.executable, '-m', 'pip', 'install', 
+'cv2'])
+
 subprocess.check_call([sys.executable, '-m', 'pip', 'install', 
 'scipy'])
 
@@ -15,6 +17,7 @@ subprocess.check_call([sys.executable, '-m', 'pip', 'install',
 subprocess.check_call([sys.executable, '-m', 'pip', 'install', 
 'keras'])
 
+import cv2
 
 @st.cache
 def load_image(img):

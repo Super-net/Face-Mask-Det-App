@@ -20,6 +20,9 @@ import subprocess
 #subprocess.check_call([sys.executable, '-m', 'pip', 'install', 
 #'keras'])
 
+subprocess.check_call([sys.executable, '-m', 'pip', 'install', 
+'skimage'])
+
 import cv2
 
 @st.cache
@@ -578,6 +581,8 @@ def detect(image):
   from PIL import Image
   import numpy as np
   import os
+  from skimage import io
+	
   model = keras.models.load_model('mobilenetv2_det.h5')
   face_model = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 

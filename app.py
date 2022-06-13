@@ -5,6 +5,9 @@ import subprocess
 subprocess.check_call([sys.executable, '-m', 'pip', 'install', 
 'opencv-python'])
 
+subprocess.check_call([sys.executable, '-m', 'pip', 'install', 
+'skimage'])
+
 import streamlit as st
 from PIL import Image, ImageEnhance
 

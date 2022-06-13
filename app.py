@@ -11,6 +11,9 @@ subprocess.check_call([sys.executable, '-m', 'pip', 'install',
 subprocess.check_call([sys.executable, '-m', 'pip', 'install', 
 'tensorflow'])
 
+subprocess.check_call([sys.executable, '-m', 'pip', 'install', 
+'tensorflow.keras.preprocessing.image'])
+
 
 @st.cache
 def load_image(img):

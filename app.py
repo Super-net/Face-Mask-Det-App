@@ -6,6 +6,9 @@ import subprocess
 
 # implement pip as a subprocess:
 subprocess.check_call([sys.executable, '-m', 'pip', 'install', 
+'chart_studio'])
+
+subprocess.check_call([sys.executable, '-m', 'pip', 'install', 
 'streamlit_webrtc'])
 
 subprocess.check_call([sys.executable, '-m', 'pip', 'install', 

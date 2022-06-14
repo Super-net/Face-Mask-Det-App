@@ -593,7 +593,7 @@ def detect(image):
       dist_label = {0:(0,255,0),1:(255,0,0)}
       MIN_DISTANCE = 0
 
-      img = Image.open(image)
+      img = io.imread(image)
 
       img = cv2.cvtColor(img, cv2.IMREAD_GRAYSCALE)
 

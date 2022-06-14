@@ -20,8 +20,8 @@ import subprocess
 #subprocess.check_call([sys.executable, '-m', 'pip', 'install', 
 #'keras'])
 
-subprocess.check_call([sys.executable, '-m', 'pip', 'install', 
-'scikit-image'])
+#subprocess.check_call([sys.executable, '-m', 'pip', 'install', 
+#'scikit-image'])
 
 #subprocess.call(['pip', 'install', 'scikit-image'])
 

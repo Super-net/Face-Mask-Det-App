@@ -24,6 +24,7 @@ import subprocess
 #'scikit-image'])
 
 #subprocess.call(['pip', 'install', 'scikit-image'])
+subprocess.call(['pip', 'install', 'scipy'])
 
 import cv2
 
